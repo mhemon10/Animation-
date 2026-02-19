@@ -104,6 +104,47 @@ h1{
 
 
 
+/* LIQUID */
+
+.liquid .particle{
+
+    animation: liquidMove 4s infinite alternate ease-in-out;
+
+}
+
+@keyframes liquidMove{
+
+0%{ transform: translate(0,0); }
+
+50%{ transform: translate(30px,15px); }
+
+100%{ transform: translate(-10px,25px); }
+
+}
+
+
+
+/* GAS */
+
+.gas .particle{
+
+    animation: gasMove 5s infinite linear alternate;
+
+}
+
+@keyframes gasMove{
+
+0%{ transform: translate(0,0);}
+
+25%{ transform: translate(80px,20px);}
+
+50%{ transform: translate(40px,80px);}
+
+75%{ transform: translate(100px,60px);}
+
+100%{ transform: translate(20px,40px);}
+
+}
 
 
 /* delays */
